@@ -2,6 +2,7 @@
 
 import "babel-polyfill";
 import "whatwg-fetch";
+import "./global/styling/core.css";
 
 import React from "react";
 import {render} from "react-dom";
