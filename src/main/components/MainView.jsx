@@ -1,6 +1,7 @@
 'use strict';
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export const MainView = ({children}) =>(
     <div>
@@ -10,7 +11,9 @@ export const MainView = ({children}) =>(
         <div>
             {children}
         </div>
-        {/*  FOOTER  */}
+
+        <Footer/>
+
     </div>
 );
 
