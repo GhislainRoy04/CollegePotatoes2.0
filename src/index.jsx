@@ -8,8 +8,6 @@ import {render} from "react-dom";
 import {App} from "./app/components";
 
 render(
-    <div>
-        <App/>
-    </div>,
+        <App/>,
     document.querySelector('#root')
 );
