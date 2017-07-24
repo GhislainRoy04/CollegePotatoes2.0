@@ -9,7 +9,6 @@ defaultConfig.devServer = {
     proxy: {
         "/api/*": "http://localhost:8080",
         "/login":"http://localhost:8080",
-        "/oauth/token": "http://localhost:8080"
     },
     contentBase: "./bin/debug",
     inline: true,
