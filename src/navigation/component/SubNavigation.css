@@ -3,3 +3,7 @@
     background-color: black;
     color:white;
 }
+
+.container > div{
+    margin-left: 10px;
+}

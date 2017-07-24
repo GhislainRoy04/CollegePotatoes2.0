@@ -10,7 +10,9 @@ import styles from "./SubNavigation.css"
 
 export const SubNavigation = () =>(
     <div className={styles["container"]}>
-        <label>Sub navigation. Will remain the same throughout the app</label>
+        <div>
+            <label>Sub navigation. Will remain the same throughout the app</label>
+        </div>
     </div>
 );
 
