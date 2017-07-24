@@ -1,9 +1,12 @@
 'use strict';
 import React from "react";
+import Header from "./Header";
 
 export const MainView = ({children}) =>(
     <div>
-        {/*  HEADER  */}
+
+        <Header/>
+
         <div>
             {children}
         </div>
