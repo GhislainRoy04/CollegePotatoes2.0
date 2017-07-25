@@ -4,7 +4,7 @@ import styles from "./Footer.css";
 
 export const Footer = () =>(
   <div className={styles["wrapper"]}>
-      <label>© 2017 Peeled Potato</label>
+      <label>© 2017 College Potatoes</label>
   </div>
 );
 
